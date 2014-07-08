@@ -1,4 +1,4 @@
-my-blog
+JC Ivancevich's blog
 =======
 
-Source code of my personal blog. Created using the Wintersmith static site generator.
+Created using the simple but powerful static site generator [Wintersmith](http://wintersmith.io).
