@@ -26,8 +26,10 @@ iOS will **always complain** about invalid certificates, either in debug or rele
 @end
 ```
 
-> For Cordova users this file is placed in `project/platforms/ios/Project/Classes/AppDelegate.m`
-
+> For Cordova users this file is placed in
+```
+project/platforms/ios/Project/Classes/AppDelegate.m
+```
 > Thanks to [@machadogj](http://machadogj.com) for this one!
 
 ---
@@ -71,13 +73,16 @@ public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError e
 }
 ```
 
-> This file is placed in `project/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewClient.java`
+> This file is placed in 
+```
+project/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewClient.java
+```
 
 ---
 
 That's all.
 
-> One thing I'd like to point at is that you should not use this solutions for production apps. This is just to test them or share them with co-workers.
+> One thing I'd like to point at is that **you should not use this solutions for production apps**. This is just to test them or share them with co-workers.
 
 If you have any comment **feel free to drop me a line** through the comments below.
 
