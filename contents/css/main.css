@@ -109,6 +109,7 @@ hr {
     text-align: center;
     font-weight: 400;
     letter-spacing: 1px;
+    margin-top: 1em;
 }
 
 .header .description {
@@ -123,6 +124,7 @@ body.article-detail > header h1 {
     font-style: italic;
     font-weight: 400;
     margin-bottom: -0.2em;
+    line-height: 1.2em;
 }
 
 body.article-detail > header {
@@ -449,4 +451,3 @@ code.lang-markdown .bullet {
         margin-bottom: 1em;
     }
 }
-
