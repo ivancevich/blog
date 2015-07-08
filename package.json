@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "moment": "2.9.x",
+    "moment": "2.10.x",
     "underscore": "1.8.x",
     "typogr": "0.6.x"
   },
