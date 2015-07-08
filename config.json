@@ -3,7 +3,7 @@
     "url": "http://ivancevich.me",
     "name": "JC Ivancevich's blog",
     "owner": "JC Ivancevich",
-    "description": "Web and mobile development"
+    "description": "Futuristic Web and Mobile Development"
   },
   "plugins": [
     "./plugins/paginator.coffee"
