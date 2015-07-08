@@ -3,7 +3,10 @@
     "url": "http://ivancevich.me",
     "name": "JC Ivancevich's blog",
     "owner": "JC Ivancevich",
-    "description": "Futuristic Web and Mobile Development"
+    "description": "Futuristic Web and Mobile Development",
+    "github": "https://github.com/ivancevich",
+    "twitter": "https://twitter.com/ivancevich",
+    "linkedin": "https://www.linkedin.com/in/ivancevich"
   },
   "plugins": [
     "./plugins/paginator.coffee"
