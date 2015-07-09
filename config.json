@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://ivancevich.me",
-    "name": "JC Ivancevich's blog",
+    "name": "JC Ivancevich",
     "owner": "JC Ivancevich",
-    "description": "Futuristic Web and Mobile Development",
+    "description": "Futuristic Web and Mobile Development Blog",
     "github": "https://github.com/ivancevich",
     "twitter": "https://twitter.com/ivancevich",
     "linkedin": "https://www.linkedin.com/in/ivancevich"
