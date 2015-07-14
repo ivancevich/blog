@@ -73,9 +73,15 @@ public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError e
 }
 ```
 
-> This file is placed in 
+> This file is placed in **(Cordova v4 and below)**
 ```
 project/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewClient.java
+```
+
+### **Update**
+> In newer versions of **Cordova (v5 and later)** the file is now placed in
+```
+project/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewClient.java
 ```
 
 ---
