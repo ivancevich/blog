@@ -473,3 +473,9 @@ code.lang-markdown .bullet {
         margin-bottom: 1em;
     }
 }
+
+@media print {
+    .social {
+        display: none;
+    }
+}
