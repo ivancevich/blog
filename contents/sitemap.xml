@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://ivancevich.me</loc>
+  </url>
+  <url>
+    <loc>http://ivancevich.me/</loc>
+  </url>
+  <url>
+    <loc>http://ivancevich.me/articles/more-than-server-side-rendering/</loc>
+  </url>
+  <url>
+    <loc>http://ivancevich.me/articles/ignoring-invalid-ssl-certificates-on-cordova-android-ios/</loc>
+  </url>
+  <url>
+    <loc>http://ivancevich.me/articles/first-blog-post/</loc>
+  </url>
+</urlset>
