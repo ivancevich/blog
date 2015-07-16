@@ -234,8 +234,11 @@ footer .copy, footer .copy a {
 }
 
 .article.intro .content .more {
+    display: block;
     text-decoration: underline;
+    text-align: center;
     font-weight: 700;
+    margin-top: 15px;
     padding-left: 0.3em;
 }
 
