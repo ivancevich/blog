@@ -1,8 +1,12 @@
 {
   "dependencies": {
-    "moment": "2.10.x",
-    "underscore": "1.8.x",
-    "typogr": "0.6.x"
+    "moment": "^2.10.5",
+    "typogr": "^0.6.5",
+    "underscore": "^1.8.3",
+    "wintersmith-stylus": "^0.4.1"
   },
-  "repository": "none"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ivancevich/blog.git"
+  }
 }

@@ -10,7 +10,8 @@
     "linkedin": "https://www.linkedin.com/in/ivancevich"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "./node_modules/wintersmith-stylus/plugin.coffee"
   ],
   "require": {
     "moment": "moment",
