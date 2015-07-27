@@ -1,0 +1,7 @@
+/* print */
+
+@media print {
+  .social {
+    display: none;
+  }
+}

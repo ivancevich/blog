@@ -10,8 +10,16 @@
     "linkedin": "https://www.linkedin.com/in/ivancevich"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "./node_modules/wintersmith-postcss/plugin.coffee"
   ],
+  "postcss": {
+    "from": "contents/css/main.css",
+    "plugins": [
+      "./node_modules/postcss-import",
+      "./node_modules/postcss-nested"
+    ]
+  },
   "require": {
     "moment": "moment",
     "_": "underscore",

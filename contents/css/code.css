@@ -1,0 +1,41 @@
+/* code */
+
+code {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 0.85em;
+  color: #000;
+
+  /* syntax hl stuff */
+  &.lang-markdown {
+    color: #424242;
+
+    .header, .strong {
+      font-weight: bold;
+    }
+
+    .emphasis {
+      font-style: italic;
+    }
+
+    .horizontal_rule, .link_label, .code, .header, .link_url {
+      color: #555;
+    }
+
+    .blockquote, .bullet {
+      color: #bbb;
+    }
+  }
+}
+
+pre code {
+  display: block;
+  line-height: 1.1;
+}
+
+p code {
+  padding: 0.1em 0.3em 0.2em;
+  border-radius: 0.3em;
+  position: relative;
+  background: #fffff3;
+  white-space: nowrap;
+}

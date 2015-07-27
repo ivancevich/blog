@@ -1,0 +1,98 @@
+/* page layout */
+
+h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 21px;
+  line-height: 1.52;
+  background-color: #f8f8f8;
+  text-rendering: optimizeLegibility;
+
+  @media (min-width:1600px) {
+    font-size: 26px;
+  }
+
+  @media (max-width:900px) {
+    font-size: 18px;
+  }
+}
+
+.content-wrap {
+  width: 34em;
+  margin: 0 auto;
+
+  @media (max-width:690px) {
+    width: auto;
+    padding: 0 1em;
+  }
+}
+
+body, a {
+  color: #171717;
+}
+
+a:hover {
+  color: #f05000;
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 1.52em;
+}
+
+pre {
+  font-size: 0.9em;
+  overflow: auto;
+  background: #fff;
+  border: 1px dashed #d2d2d2;
+  border-radius: 0.25em;
+  margin-bottom: 1.8em;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.43;
+  margin-bottom: 1.35em;
+}
+
+h3 {
+  font-style: italic;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.4em;
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+}
+
+ol, ul {
+  margin: 0 1.4em 1.4em 4em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+blockquote {
+  margin: 1.2em 3em;
+  padding-left: 1em;
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dashed #d2d2d2;
+  height: 0;
+  margin: 1.6em 0;
+}
