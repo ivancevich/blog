@@ -4,6 +4,7 @@
     "moment": "^2.10.5",
     "postcss-import": "^6.2.0",
     "postcss-nested": "^0.3.2",
+    "postcss-simple-vars": "^0.3.0",
     "typogr": "^0.6.5",
     "underscore": "^1.8.3",
     "wintersmith-postcss": "^1.2.0"

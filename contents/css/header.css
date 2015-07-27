@@ -25,7 +25,7 @@
   }
 
   .author {
-    font-family: 'Merriweather', serif;
+    font-family: $iv-secondary-font;
     font-variant: small-caps;
     text-transform: lowercase;
     text-rendering: auto;

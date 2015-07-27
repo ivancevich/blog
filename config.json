@@ -20,6 +20,8 @@
     }, {
       "path": "./node_modules/postcss-nested"
     }, {
+      "path": "./node_modules/postcss-simple-vars"
+    }, {
       "path": "./node_modules/cssnano",
       "autoexec": true
     }]

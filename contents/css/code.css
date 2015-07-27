@@ -1,7 +1,7 @@
 /* code */
 
 code {
-  font-family: 'Anonymous Pro', monospace;
+  font-family: $iv-code-font;
   font-size: 0.85em;
   color: #000;
 
