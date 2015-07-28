@@ -14,6 +14,7 @@
     "./node_modules/wintersmith-postcss/plugin.coffee"
   ],
   "postcss": {
+    "entrypoint": "css/main.css",
     "from": "contents/css/main.css",
     "plugins": [{
       "path": "./node_modules/postcss-import"

@@ -7,7 +7,12 @@
     "postcss-simple-vars": "^0.3.0",
     "typogr": "^0.6.5",
     "underscore": "^1.8.3",
-    "wintersmith-postcss": "^1.2.0"
+    "wintersmith": "^2.2.1",
+    "wintersmith-postcss": "^1.2.1"
+  },
+  "scripts": {
+    "start": "wintersmith preview",
+    "build": "wintersmith build --clean --ignore 'css/archive.css, css/article.css, css/code.css, css/footer.css, css/header.css, css/layout.css, css/print.css, css/theme.css, css/variables.css'"
   },
   "repository": {
     "type": "git",
