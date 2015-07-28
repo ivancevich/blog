@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "wintersmith preview",
-    "build": "wintersmith build --clean --ignore 'css/archive.css, css/article.css, css/code.css, css/footer.css, css/header.css, css/layout.css, css/print.css, css/theme.css, css/variables.css'"
+    "build": "wintersmith build --clean --ignore '**/*.log, css/archive.css, css/article.css, css/code.css, css/footer.css, css/header.css, css/layout.css, css/print.css, css/theme.css, css/variables.css'",
+    "sync": "rsync --archive build/* ../ivancevich.github.io"
   },
   "repository": {
     "type": "git",
